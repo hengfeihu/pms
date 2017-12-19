@@ -5,7 +5,7 @@ import io.ebean.Model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "sy_user")
+@Table(name = "pms_user")
 public class User extends Model {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
